@@ -42,7 +42,7 @@
 
 ## Section 6: MiCard - How to Build Beautiful UIs with Flutter Widgets
 
-* [MiCard Stub Project](https://github.com/londonappbrewery/mi_card_flutter)
+* [MiCard Stub Project](https://github.com/edupgarcia/Flutter-Course-Resources/tree/master/mi_card_flutter_app)
 * [Widgets Catalogue](https://flutter.dev/docs/development/ui/widgets)
 * [Container Documentation](https://docs.flutter.io/flutter/widgets/Container-class.html)
 * [Column Documentation](https://docs.flutter.io/flutter/widgets/Column-class.html)
