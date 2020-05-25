@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/painting.dart';
 
 void main() {
   runApp(MyApp());
@@ -10,37 +11,81 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.teal,
+        backgroundColor: Colors.redAccent,
         body: SafeArea(
-          child: Row(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              Container(
-                width: 100,
-                color: Colors.red,
+              CircleAvatar(
+                radius: 75.0,
+                backgroundImage: NetworkImage(
+                    'https://avatars2.githubusercontent.com/u/1223753?s=400&u=5c2c72df034390efb41b93ec2858d0e8e8ab2a9f&v=4'),
               ),
-              Expanded(
-                child: Container(
-                  //color: Colors.teal,
-                  child: Column(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: <Widget>[
-                      Container(
-                        color: Colors.yellow,
-                        height: 100.0,
-                        width: 100.0,
-                      ),
-                      Container(
-                        color: Colors.green,
-                        height: 100.0,
-                        width: 100.0,
-                      ),
-                    ],
+              Text(
+                'Edu Garcia',
+                textAlign: TextAlign.center,
+                style: TextStyle(
+                  color: Colors.white,
+                  fontFamily: 'Pacifico',
+                  fontSize: 40.0,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              Text(
+                'FLUTTER DEVELOPER',
+                style: TextStyle(
+                    color: Colors.yellow.shade100,
+                    fontFamily: 'Source',
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold,
+                    letterSpacing: 2.5),
+              ),
+              SizedBox(
+                height: 20.0,
+                width: 150.0,
+                child: Divider(
+                  color: Colors.white,
+                ),
+              ),
+              Card(
+                margin: EdgeInsets.symmetric(
+                  vertical: 10.0,
+                  horizontal: 25.0,
+                ),
+                child: ListTile(
+                  leading: Icon(
+                    Icons.phone,
+                    color: Colors.deepOrange,
+                  ),
+                  title: Text(
+                    '+55 119 5494 0771',
+                    style: TextStyle(
+                      color: Colors.orange,
+                      fontFamily: 'Source',
+                      fontSize: 20.0,
+                    ),
                   ),
                 ),
               ),
-              Container(
-                color: Colors.blue,
-                width: 100.0,
+              Card(
+                margin: EdgeInsets.symmetric(
+                  vertical: 10.0,
+                  horizontal: 25.0,
+                ),
+                child: ListTile(
+                  leading: Icon(
+                    Icons.email,
+                    color: Colors.deepOrange,
+                  ),
+                  title: Text(
+                    'contato@it-microsystems.net',
+                    style: TextStyle(
+                      color: Colors.orange,
+                      fontFamily: 'Source',
+                      fontSize: 20.0,
+                    ),
+                  ),
+                ),
               ),
             ],
           ),
