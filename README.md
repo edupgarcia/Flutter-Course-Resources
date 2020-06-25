@@ -42,7 +42,7 @@
 
 ## Section 6: MiCard - How to Build Beautiful UIs with Flutter Widgets
 
-* [MiCard Stub Project](https://github.com/edupgarcia/Flutter-Course-Resources/tree/master/mi_card_flutter_app)
+* [MiCard Stub Project](https://github.com/edupgarcia/mi-card-flutter)
 * [Widgets Catalogue](https://flutter.dev/docs/development/ui/widgets)
 * [Container Documentation](https://docs.flutter.io/flutter/widgets/Container-class.html)
 * [Column Documentation](https://docs.flutter.io/flutter/widgets/Column-class.html)
@@ -61,7 +61,7 @@
 
 ## Section 7: Dicee - Building Apps with State
 
-* [Dicee Stub Project](https://github.com/edupgarcia/Flutter-Course-Resources/tree/master/dicee-flutter)
+* [Dicee Stub Project](https://github.com/edupgarcia/dicee-flutter)
 * [Expanded Class](https://docs.flutter.io/flutter/widgets/Expanded-class.html)
 * [Image Widget Documentation](https://docs.flutter.io/flutter/widgets/Image-class.html)
 * [FlatButton Documentation](https://docs.flutter.io/flutter/material/FlatButton-class.html)
@@ -72,7 +72,7 @@
 
 ## Section 8: Boss Level Challenge 1 - Magic 8 Ball
 
-* [Magic 8 Ball Stub](https://github.com/londonappbrewery/magic-8-ball-flutter)
+* [Magic 8 Ball Stub](https://github.com/edupgarcia/magic-8-ball-flutter)
 
 ## Section 9: Xylophone - Using Flutter and Dart Packages to Speed Up Development
 
